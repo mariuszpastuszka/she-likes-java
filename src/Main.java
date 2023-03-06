@@ -38,5 +38,26 @@ public class Main {
 
         // double type for number with fraction part
         double trueEleven = 11.0;
+
+        System.out.println("Exercise 7");
+        int sum = 5 + 8;
+        System.out.println("Sum of 5 and 8 is = " + sum);
+
+        int difference = 11 - 4;
+        System.out.println("Difference of 11 and 4 is: " + difference);
+
+        int product = 5 * 8;
+        System.out.println("Product of 5 and 8 is: " + product);
+
+        double quotient = 5.0/8.5;
+        System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
+
+        System.out.println("Reminder");
+        int result = 9/4;
+        System.out.println("result is: " + result);
+
+        // modulo operator - remainder operator: 9/4 = 2 and 1(reminder)
+        result = 9%4;
+        System.out.println("and now result is: " + result);
     }
 }
