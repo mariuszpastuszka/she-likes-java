@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.numbers;
+package com.sda.she_likes_java.primitive_data_types;
 
 // names of the class should start with capital letter - always
 // names of the variable should start with lower case letter :)
