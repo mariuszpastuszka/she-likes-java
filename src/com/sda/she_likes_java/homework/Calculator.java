@@ -11,7 +11,6 @@ public class Calculator {
         System.out.println("Provide first number: ");
         int firstNumber;
         int secondNumber;
-        // TODO: explain object creation
         Scanner inputReader = new Scanner(System.in);
         firstNumber = inputReader.nextInt();
         System.out.println("You provided number: " + firstNumber);

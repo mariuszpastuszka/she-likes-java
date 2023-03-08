@@ -26,7 +26,7 @@ public class Main {
         String mySurname = "Pastuszka";
         System.out.println(myName + "-" + mySurname);
 
-        String five = "5";
+        String five =  "5";
         String otherFive = "5";
         System.out.println(five + otherFive);
 
