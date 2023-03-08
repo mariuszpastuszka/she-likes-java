@@ -7,7 +7,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         System.out.println("com.sda.she_likes_java.homework.Calculator...");
-        System.out.println("Calculating sum of two numbers");
+        System.out.println("Calculating sum of two com.sda.she_likes_java.numbers");
         System.out.println("Provide first number: ");
         int firstNumber;
         int secondNumber;
@@ -21,7 +21,7 @@ public class Calculator {
         System.out.println("Sum is: " + sum);
 
         System.out.println("--------------------");
-        System.out.println("Calculating difference of two numbers");
+        System.out.println("Calculating difference of two com.sda.she_likes_java.numbers");
         System.out.println("Provide first number: ");
         firstNumber = inputReader.nextInt();
         System.out.println("You provided number: " + firstNumber);
@@ -32,7 +32,7 @@ public class Calculator {
         System.out.println("Difference is: " + difference);
 
         System.out.println("--------------------");
-        System.out.println("Calculating product of two numbers");
+        System.out.println("Calculating product of two com.sda.she_likes_java.numbers");
         System.out.println("Provide first number: ");
         firstNumber = inputReader.nextInt();
         System.out.println("You provided number: " + firstNumber);
@@ -40,10 +40,10 @@ public class Calculator {
         secondNumber = inputReader.nextInt();
         System.out.println("You provided number: " + secondNumber);
         int productOfNumbers = firstNumber * secondNumber;
-        System.out.println("Product of two numbers is: " + productOfNumbers);
+        System.out.println("Product of two com.sda.she_likes_java.numbers is: " + productOfNumbers);
 
         System.out.println("--------------------");
-        System.out.println("Calculating quotient of two numbers");
+        System.out.println("Calculating quotient of two com.sda.she_likes_java.numbers");
         System.out.println("Provide first number: ");
         firstNumber = inputReader.nextInt();
         System.out.println("You provided number: " + firstNumber);

@@ -12,7 +12,7 @@ public class Main {
         // needs good name e.g. myDaughterAge
         // needs type of variable
         // that data type limit possible set of allowed values
-        // int - integer numbers
+        // int - integer com.sda.she_likes_java.numbers
         int myDaughterAge = 5;
 
         // assigning new value to variable
