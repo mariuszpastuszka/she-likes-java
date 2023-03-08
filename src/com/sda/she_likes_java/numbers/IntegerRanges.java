@@ -25,5 +25,7 @@ public class IntegerRanges {
         System.out.println("now let's check byte type");
         System.out.println("minimal byte number is: " + Byte.MIN_VALUE);
         System.out.println("maximum byte number is: " + Byte.MAX_VALUE);
+
+//        int number = 9223372036854775807;
     }
 }
