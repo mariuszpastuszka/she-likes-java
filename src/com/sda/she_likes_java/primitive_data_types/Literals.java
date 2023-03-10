@@ -15,7 +15,7 @@ public class Literals {
 
         // double literal
         double doubleNumber = 3.1;
-        
+
         // float literal
         float floatNumber = 3.1F;
     }
