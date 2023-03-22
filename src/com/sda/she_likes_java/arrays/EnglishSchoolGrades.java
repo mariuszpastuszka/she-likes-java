@@ -9,7 +9,7 @@ public class EnglishSchoolGrades {
 
         Random gradeGenerator = new Random();
 
-        // intitializing grades with some random scores
+        // initializing grades with some random scores
         for (int index = 0; index < myGradesOnEnglishClass.length; index++) {
             myGradesOnEnglishClass[index] = 1 + gradeGenerator.nextInt(6);
         }
