@@ -36,8 +36,17 @@ public class SortingOfThreeNumbers {
         }
 
         // middle
-        middle = firstNumber;
-        if (secondNumber >= middle);
+        if (firstNumber > min && firstNumber < max) {
+            middle = firstNumber;
+        } else if (secondNumber > min && secondNumber < max) {
+            middle = secondNumber;
+        } else if (thirdNumber > min && thirdNumber < max) {
+            middle = thirdNumber;
+        } else if (firstNumber == secondNumber || firstNumber == thirdNumber) {
+            middle = firstNumber;
+        } else {
+            middle = secondNumber;
+        }
 
 
         System.out.println("Before sorting");
