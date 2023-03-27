@@ -1,12 +1,12 @@
 package com.sda.she_likes_java.classes;
 
 public class Address {
-    String country;
-    String city;
-    String street;
+    public String country;
+    public String city;
+    public String street;
     // 02-987
     // 011
-    String postalCode;
+    public String postalCode;
 
     @Override
     public String toString() {
