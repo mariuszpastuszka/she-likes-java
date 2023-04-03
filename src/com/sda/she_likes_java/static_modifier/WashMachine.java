@@ -17,24 +17,33 @@ public class WashMachine {
         WashMachine.numberOfCreatedMachines = numberOfCreatedMachines;
     }
 
+    // instance method
     public void setSerialNumber(int serialNumber) {
         this.serialNumber = serialNumber;
     }
 
+    // class method
     public static int getNumberOfCreatedMachines() {
         return numberOfCreatedMachines;
     }
 
+    // instance method
     public int getSerialNumber() {
         return serialNumber;
     }
 
+    // instance method
     public String getBrand() {
         return brand;
     }
 
     public String getModel() {
         return model;
+    }
+
+    // instance method
+    public void increaseSerialNumber() {
+        serialNumber++;
     }
 
     @Override
