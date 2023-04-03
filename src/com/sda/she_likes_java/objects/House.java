@@ -5,14 +5,6 @@ public class House {
     private int numberOfBathrooms;
     private int numberOfFloors;
 
-    public int getNumberOfFloors() {
-        return numberOfFloors;
-    }
-
-    public void setNumberOfFloors(int numberOfFloors) {
-        this.numberOfFloors = numberOfFloors;
-    }
-
     public House(int numberOfRooms, int numberOfBathrooms, int numberOfFloors) {
         this.numberOfRooms = numberOfRooms;
         this.numberOfBathrooms = numberOfBathrooms;
@@ -23,6 +15,14 @@ public class House {
         this.numberOfRooms = numberOfRooms;
         this.numberOfBathrooms = numberOfBathrooms;
 //        this.numberOfFloors = 0;
+    }
+
+    public int getNumberOfFloors() {
+        return numberOfFloors;
+    }
+
+    public void setNumberOfFloors(int numberOfFloors) {
+        this.numberOfFloors = numberOfFloors;
     }
 
     public int getNumberOfRooms() {
