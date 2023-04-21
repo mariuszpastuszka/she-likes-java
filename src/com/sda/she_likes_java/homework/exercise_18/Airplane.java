@@ -4,6 +4,7 @@ public class Airplane {
 
     private boolean isFlying;
     private int xCoordinatesOfDestiny;
+    private int yCoordinatesOfDestiny;
 
     public boolean isFlying() {
         return isFlying;
@@ -17,7 +18,6 @@ public class Airplane {
         return yCoordinatesOfDestiny;
     }
 
-    private int yCoordinatesOfDestiny;
     public void takeOff() {
         if (!isFlying) {
             isFlying = true;
