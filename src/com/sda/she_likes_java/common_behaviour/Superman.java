@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.common_behaviour.wrong_approach;
+package com.sda.she_likes_java.common_behaviour;
 
 public class Superman implements Flyable, Swimmable, Moveable {
     @Override
