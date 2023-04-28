@@ -9,6 +9,7 @@ public class Main {
         ship.move();
 //        ship.swin();
         ((Floating) ship).swim();
+        ((Ship) ship).swim();
 
         Vehicle airplane = new Airplane();
         airplane.move();
