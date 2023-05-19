@@ -2,6 +2,7 @@ package com.sda.she_likes_java.sorting;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class SortingPersonsMain {
@@ -24,5 +25,8 @@ public class SortingPersonsMain {
         // if returns 1 that means: gustaw, olaf
 //        System.out.println("olaf.compareTo(gustaw): " + olaf.compareTo(gustaw));
 //        System.out.println("gustaw vs zorro: " + gustaw.compareTo(zorro));
+        Comparator<SortedPerson> reversedAgeOrder = new AgedReversedOrderOfSortedPersons();
+        Collections.sort(persons, reversedAgeOrder);
+        System.out.println("Reversed order based on age: " + persons);
     }
 }
