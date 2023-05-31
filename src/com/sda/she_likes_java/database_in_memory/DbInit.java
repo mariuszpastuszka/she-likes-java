@@ -29,8 +29,8 @@ public class DbInit {
             Statement statement = dbConnection.createStatement();
 
             // create table
-            statement.execute(insertDataQuery);
             statement.execute(createTableQuery);
+            statement.execute(insertDataQuery);
             // insert data to table
         } catch (SQLException e) {
             System.out.println("Problem with preparing new data: " + e);
