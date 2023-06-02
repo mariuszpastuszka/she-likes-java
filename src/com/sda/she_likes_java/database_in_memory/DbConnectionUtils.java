@@ -16,4 +16,11 @@ public class DbConnectionUtils {
             return null;
         }
     }
+
+    public static Connection getConnectionRiskyWay(String dbUrl, String username, String password) throws SQLException {
+            return DriverManager.getConnection(dbUrl,
+                    username,
+                    password);
+
+    }
 }
