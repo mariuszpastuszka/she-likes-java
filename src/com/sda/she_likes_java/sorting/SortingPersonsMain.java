@@ -50,5 +50,21 @@ public class SortingPersonsMain {
         Collections.sort(persons,
                 new LexicalOrderForSortedPerson().reversed()
                         .thenComparing(reversedAgeOrder));
+
+        Comparator<SortedPerson> reversedAgeOrderLambda = (o1, o2) -> {
+//        return o2.getAge() - o1.getAge();
+            System.out.println("Using my AgedReversedOrderOfSortedPersons class");
+            if (o1.getAge() < o2.getAge()) {
+                return 1;
+            } else if (o1.getAge() > o2.getAge()) {
+                return -1;
+            } else {
+                return 0;
+            }
+        };
+
+        // logically broken
+        // You can provide lambda for Comparable, but it's not real functional interface
+        Comparable<SortedPerson> brokenComparableLambda = o -> 1;
     }
 }
