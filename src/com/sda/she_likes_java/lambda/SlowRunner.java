@@ -5,4 +5,9 @@ public class SlowRunner implements Jogging {
     public void run() {
         System.out.println("I'm terribly slow...");
     }
+
+    @Override
+    public void walk() {
+        System.out.println("Slowly walking");
+    }
 }
